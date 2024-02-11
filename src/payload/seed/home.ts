@@ -5,7 +5,7 @@ export const home: Partial<Page> = {
   slug: 'home',
   _status: 'published',
   meta: {
-    title: 'Payload E-Commerce Template',
+    title: 'Toronto Lootout',
     description: 'An open-source e-commerce store built with Payload and Next.js.',
     image: '{{PRODUCT1_IMAGE}}',
   },
@@ -15,7 +15,7 @@ export const home: Partial<Page> = {
       {
         children: [
           {
-            text: 'Payload E-Commerce Store',
+            text: 'Toronto Lootout Sale',
           },
         ],
         type: 'h1',
@@ -69,16 +69,16 @@ export const home: Partial<Page> = {
           url: '',
         },
       },
-      {
-        link: {
-          type: 'custom',
-          appearance: 'secondary',
-          reference: null,
-          label: 'View on GitHub',
-          url: 'https://github.com/payloadcms/payload/tree/main/templates/ecommerce',
-          newTab: true,
-        },
-      },
+      // {
+      //   link: {
+      //     type: 'custom',
+      //     appearance: 'secondary',
+      //     reference: null,
+      //     label: 'View on GitHub',
+      //     url: 'https://github.com/payloadcms/payload/tree/main/templates/ecommerce',
+      //     newTab: true,
+      //   },
+      // },
     ],
     media: '{{PRODUCT1_IMAGE}}',
   },

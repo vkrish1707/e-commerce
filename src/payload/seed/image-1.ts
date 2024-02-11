@@ -13,7 +13,7 @@ export const image1 = {
           newTab: true,
           children: [
             {
-              text: 'Keagan Henman',
+              text: 'Contact us for better deals!',
             },
           ],
         },
